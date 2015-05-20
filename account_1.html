@@ -1,0 +1,169 @@
+<!--
+trade/available.php
+trade/available.php?type=expired
+shop/available.php
+shop/available.php?type=expired
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/market.css">
+	<link rel="stylesheet" type="text/css" href="css/market-account.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<header id="main_header">
+			<a href="#" class="headerLogo">the<span class="secondColor">new</span>boston<span class="secondColor">trade</span></a>
+		</header>
+		
+		<section id="main_section">
+		
+			<!-- Tabs -->
+			<ul id="top-tabs">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Add Item</a></li>
+				<li><a href="#">Search</a></li>
+				<li class="current"><a href="#">Trade Account</a></li>
+			</ul>
+			
+			<!-- Search -->
+			<div id="top-search">
+				<form>
+					<input type="text" class="search-input">
+					<select>
+						<option value="#">All Categories</option>
+						<option value="#">Art</option>
+						<option value="#">Sports Memorabilia &amp; Cards</option>
+					</select>
+					<input type="submit" value="Search" class="search-button">
+				</form>
+			</div>
+			
+			<aside id="account-left-bar">
+				<div id="user-name">Bucky Roberts</div>
+				<div id="user-thumbnail">
+					<a href="#"><img src="https://www.thenewboston.com/images/defaultProfileImage.png" /></a>
+				</div>
+				<dl>
+					<dt>My Items</dt>        
+					<dd>
+						<a href="#" class="current">Available</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Expired</a>
+						<div class="menu-item-divider"></div>
+					</dd>        
+				</dl>
+				<dl>
+					<dt>Offers</dt>        
+					<dd>
+						<a href="#">Made</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Received</a>
+						<div class="menu-item-divider"></div>
+					</dd> 
+					<dd>
+						<a href="#">Declined by Me</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Declined by Them</a>
+						<div class="menu-item-divider"></div>
+					</dd>					
+				</dl>
+				<dl>
+					<dt>Trades</dt>        
+					<dd>
+						<a href="#">Completed</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">History</a>
+						<div class="menu-item-divider"></div>
+					</dd> 					
+				</dl>
+				<dl>
+					<dt>Trade Settings</dt>        
+					<dd>
+						<a href="#">Notification Settings</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Shipping Information</a>
+						<div class="menu-item-divider"></div>
+					</dd> 				
+				</dl>				
+			</aside>
+			
+			<!-- Right -->
+			<section id="account-right">
+			
+				<div id="table-title">My Available Items</div>
+			
+				<div id="basic-table">
+					<table>
+						<tr>
+							<th></th>
+							<th>Item</th>
+							<th class="centered">Offers</th>
+							<th class="centered">Time Left</th>
+							<th>Actions</th>					
+						</tr>
+						<tr>
+							<td class="one">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/6271f0ef1a474524c3fbb67e95ddebd4.jpg" /></a>
+							</td>
+							<td class="two">
+								<a href="#">Alex Ovechkin Washington Capitals (Hockey Card) 2013-14</a> <br />
+								<span class="sub-title">Mint Condition!</span>
+								<div id="item-number">Item Number: 261</div>
+							</td>
+							<td class="three"><a href="#">1 (view)</a></td>
+							<td class="four">10h 17m</td>
+							<td class="five">
+								<a href="#">Edit Item</a> <br />
+								<a href="#">Delete Item</a>
+							</td>							
+						</tr>
+						<tr>
+							<td class="one">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/4/7f397efd56053a15f9b5ceeb7d4a1029.JPG" /></a>
+							</td>
+							<td class="two">
+								<a href="#">Female Under Umbrella Oil Painting</a> <br />
+								<span class="sub-title">Ready To Hang</span>
+								<div id="item-number">Item Number: 261</div>
+							</td>
+							<td class="three">0</td>
+							<td class="four">10h 17m</td>
+							<td class="five">
+								<a href="#">Edit Item</a> <br />
+								<a href="#">Delete Item</a>
+							</td>							
+						</tr>
+					</table>
+				</div>
+				
+				<div class="paginate">
+					<span class="label">1 - 11 of 11</span>
+					<div class="pages">
+						<span class="current">1</span>
+					</div>
+					<div class="clear"></div>
+				</div>				
+				
+			</section>
+
+		</section>
+		
+	</div>
+	
+</body>
+</html>

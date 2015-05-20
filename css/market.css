@@ -1,0 +1,109 @@
+/* Overwriting main.css */
+#main_section{
+	margin-bottom: 15px;
+}
+.paginate {
+	padding: 10px 3px;
+}
+body{
+	font-family: OpenSans-Regular;
+}
+form{
+	padding: 0px;
+}
+table{
+	border-collapse: collapse;
+}
+td{
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+
+/* Generic */
+.market-title-1{
+	color: #444;
+	font-family: Lato-Bol;
+	font-size: 18px;
+}
+.market-title-2{
+	color: #555;
+	display: block;
+	font-family: Lato-Bol;
+	font-size: 14px;
+}
+.market-title-3{
+	color: #444;
+	font-family: Lato-Bol;
+	font-size: 15px;
+}
+a.more-details{
+	font-size: 11px;
+}
+
+/* Top Tabs */
+#top-tabs{
+	list-style: none;
+	float: right;
+	margin-top: -24px;
+}
+#top-tabs li{
+	text-align: center;
+	margin: 0px 5px;
+	float: left;
+	background: #888;
+	border-top: solid 1px #888;
+}
+#top-tabs li:hover{
+	background-color: #c0392b;
+	border-top: solid 1px #c0392b;
+}
+#top-tabs li.current{
+	border: solid 1px #ccc;
+	border-bottom: solid 2px #f6f6f6;
+	background: #f6f6f6;
+}
+#top-tabs li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	line-height: 22px;
+}
+#top-tabs li.current a{
+	color: #333;
+	font-family: OpenSans-Bold;
+}
+
+/* Top Search Bar */
+#top-search{
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+#top-search form .search-input{
+	border: 1px solid #ddd;
+	color: #777;
+	margin-right: 5px;
+	padding: 2px;
+	width: 730px;
+}
+#top-search form select{
+	border: 1px solid #ddd;
+	color: #777;
+	margin-right: 5px;
+	padding: 1px;
+}
+#top-search .search-button{
+	background-color: #cc0000;
+	border: none;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 3px 6px;
+	text-decoration: none;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#top-search .search-button:hover{
+    background-color: #aa0000;
+	cursor: pointer;
+}

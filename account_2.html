@@ -1,0 +1,177 @@
+<!--
+trade/offer_made.php
+trade/offer_received.php
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/market.css">
+	<link rel="stylesheet" type="text/css" href="css/market-account.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<header id="main_header">
+			<a href="#" class="headerLogo">the<span class="secondColor">new</span>boston<span class="secondColor">trade</span></a>
+		</header>
+		
+		<section id="main_section">
+		
+			<!-- Tabs -->
+			<ul id="top-tabs">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Add Item</a></li>
+				<li><a href="#">Search</a></li>
+				<li class="current"><a href="#">Trade Account</a></li>
+			</ul>
+			
+			<!-- Search -->
+			<div id="top-search">
+				<form>
+					<input type="text" class="search-input">
+					<select>
+						<option value="#">All Categories</option>
+						<option value="#">Art</option>
+						<option value="#">Sports Memorabilia &amp; Cards</option>
+					</select>
+					<input type="submit" value="Search" class="search-button">
+				</form>
+			</div>
+			
+			<aside id="account-left-bar">
+				<div id="user-name">Bucky Roberts</div>
+				<div id="user-thumbnail">
+					<a href="#"><img src="https://www.thenewboston.com/images/defaultProfileImage.png" /></a>
+				</div>
+				<dl>
+					<dt>My Items</dt>        
+					<dd>
+						<a href="#">Available</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Expired</a>
+						<div class="menu-item-divider"></div>
+					</dd>        
+				</dl>
+				<dl>
+					<dt>Offers</dt>        
+					<dd>
+						<a href="#" class="current">Made</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Received</a>
+						<div class="menu-item-divider"></div>
+					</dd> 
+					<dd>
+						<a href="#">Declined by Me</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Declined by Them</a>
+						<div class="menu-item-divider"></div>
+					</dd>					
+				</dl>
+				<dl>
+					<dt>Trades</dt>        
+					<dd>
+						<a href="#">Completed</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">History</a>
+						<div class="menu-item-divider"></div>
+					</dd> 					
+				</dl>
+				<dl>
+					<dt>Trade Settings</dt>        
+					<dd>
+						<a href="#">Notification Settings</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Shipping Information</a>
+						<div class="menu-item-divider"></div>
+					</dd> 				
+				</dl>				
+			</aside>
+			
+			<!-- Right -->
+			<section id="account-right">
+			
+				<div id="table-title">Offers Made</div>
+			
+				<div id="trade-table">
+					<table>
+						<tr>	
+							<th></th>
+							<th>My Item</th>
+							<th></th>
+							<th>Their Item</th>
+							<th class="last-col">Actions</th>					
+						</tr>
+						<tr>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/d5e08f03fc68d85400460eb1b1e9c920.jpg" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Army of Two: The 40th Day - PS3</a> <br />
+								<span>Used</span>
+							</td>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/4/7f397efd56053a15f9b5ceeb7d4a1029.JPG" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Original Modern Palette Knife Abstract Oil Painting</a> <br />
+								<span>Location: United States</span>
+							</td>
+							<td class="last-col">
+								<a href="#">Delete Offer</a> <br />
+								<a href="#">Send Message</a>
+								<div id="expiration-info">Offer Expires: 1h 32m</div>
+							</td>							
+						</tr>
+						<tr>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/4/5d9e8b505dce6775fded89b7dd37899b.JPG" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Army of Two: The 40th Day - PS3</a> <br />
+								<span>Used</span>
+							</td>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/e2441b4369c1bcea7093840b5b5945cf.jpg" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Original Modern Palette Knife Abstract Oil Painting</a> <br />
+								<span>Location: United States</span>
+							</td>
+							<td class="last-col">
+								<a href="#">Delete Offer</a> <br />
+								<a href="#">Send Message</a>
+								<div id="expiration-info">Offer Expires: 1h 32m</div>
+							</td>							
+						</tr>						
+					</table>
+				</div>
+				
+				<div class="paginate">
+					<span class="label">1 - 11 of 11</span>
+					<div class="pages">
+						<span class="current">1</span>
+					</div>
+					<div class="clear"></div>
+				</div>				
+				
+			</section>
+
+		</section>
+		
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,329 @@
+#main_section{
+	background: url(https://www.thenewboston.com/images/forum/menu-bg.png);
+}
+
+/* Account Left */
+#account-left-bar{
+	color: #fbfbfb;
+	float: left;
+	font-size: 11px;
+	padding-bottom: 20px;
+	width: 200px;
+}
+.menu-item-divider {
+	height: 1px;
+	background-color: rgba(0,0,0,0.15);
+	border-bottom: solid 1px rgba(255,255,255,0.07);
+}
+#account-left-bar #user-name{
+	color: #fff;
+	padding: 3px 10px 0px;
+	font-family: 'OpenSans-CondBold', sans-serif;
+	font-size: 18px;	
+}
+#account-left-bar #user-thumbnail{
+	padding: 3px 10px;
+}
+#account-left-bar #user-thumbnail img{
+	max-width: 100%;
+}
+#account-left-bar dl{
+	color: #666;
+	margin: 18px 0 0;
+}
+#account-left-bar dt{
+	padding: 2px 10px;
+}
+#account-left-bar dd {
+	position: relative;
+}
+#account-left-bar dd a{
+	color: #e6e6e6;
+	display: block;
+	line-height: 18px;
+	padding: 2px 10px;
+	text-decoration: none !important;
+}
+#account-left-bar dd a.current,
+#account-left-bar dd a:hover{
+	background: rgba(255, 255, 255, 0.1);
+}
+
+/* Account Right */
+#account-right{
+	background: white;
+	float: left;
+	min-height: 700px;
+	width: 824px;
+}
+#account-right #below-table-button{
+	margin: 7px 10px 0px;
+}
+.green{
+	color: #009900;
+}
+.feedback-positive, 
+.feedback-negative {
+	background: url("https://www.thenewboston.com/images/thumb-s.png") no-repeat 0 0;
+	height: 15px;
+	width: 15px;
+	margin-top: 2px;
+	padding-left: 20px;
+}
+
+/* All Tables */
+#account-right #table-title{
+	color: #444;
+	font-family: Lato-Bol;
+	font-size: 16px;
+	margin: 6px 10px;
+}
+
+#account-right table{
+	line-height: 18px;
+	margin-top: 2px;
+}
+#account-right th{
+	color: #bbb;
+	font-size: 11px;
+	padding: 5px 0px;
+}
+#account-right th.centered{
+	text-align: center;
+}
+#account-right td{
+	padding: 10px 0px;
+	vertical-align: top;
+}
+#account-right tr {
+	border-bottom: 1px solid #e6e6e6;
+}
+#account-right tr:nth-child(even){
+	background-color: #fafafa;
+}
+
+/* Form tables */
+#account-right table.form-table{
+	line-height: 18px;
+	margin-top: 10px;
+}
+#account-right table.form-table tr{
+	border-bottom: none;
+}
+#account-right table.form-table tr:nth-child(even){
+	background-color: white;
+}
+#account-right table.form-table td{
+	padding: 7px 0px;
+}
+#account-right table.form-table td.subtitle{
+	color: #444;
+	font-family: Lato-Bol;
+	font-size: 16px;
+	padding: 12px 0px 5px 10px;
+}
+#account-right table.form-table td.label{
+	color: #999;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: right;
+	width: 140px;
+}
+#account-right table.form-table input{
+	border: 1px solid #ddd;
+	font-family: OpenSans-Regular;
+	font-size: 12px;	
+	padding: 2px;
+	width: 300px;
+}
+#account-right table.form-table input.radio{
+	padding: 0px;
+	width: 12px;
+}
+#account-right table.form-table textarea{
+	border: 1px solid #ddd;
+	font-family: OpenSans-Regular;
+	font-size: 12px;	
+	padding: 2px;
+	height: 120px;
+	width: 500px;
+}
+#account-right table.form-table select{
+	border: 1px solid #ddd;
+	font-family: OpenSans-Regular;
+	font-size: 12px;
+	padding: 2px;
+	width: 306px;
+}
+#account-right table.form-table #inside-label{
+	display: inline-block;
+	padding-left: 5px;
+	color: #999;
+}
+#account-right table.form-table a.remove{
+	padding-left: 15px;
+	color: #cc0000;	
+}
+#account-right table.form-table td.add-new{
+	font-family: OpenSans-Bold;
+	padding-top: 3px;
+}
+
+/* Basic 5 column tables */
+#basic-table table td.one{
+	padding: 10px 10px 5px;
+	text-align: center;
+	width: 100px;
+	vertical-align: middle;
+}
+#basic-table table td.one img{
+	max-width: 90px;
+	max-height: 90px;
+}
+#basic-table table td.two{
+	width: 390px;
+}
+#basic-table table td.two a{
+	font-family: OpenSans-Bold;
+	font-size: 13px;
+}
+#basic-table table td.two .sub-title{
+	color: #555;
+}
+#basic-table table td.two #item-number{
+	color: #999;
+	font-size: 11px;
+	margin-top: 5px;
+}
+#basic-table table td.three{
+	color: #999;
+	text-align: center;
+}
+#basic-table table td.four{
+	color: #999;
+	text-align: center;
+}
+#basic-table table td.five{
+}
+
+/******* Offers & Trade table *******/
+#trade-table table .last-col{
+	padding-left: 10px;
+}
+#trade-table table th.check-box{
+	text-align: center;
+}
+#trade-table table td.check-box{
+	border-right: 1px solid #ececec;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+#trade-table table td.item-image{
+	padding: 10px 5px 5px;
+	text-align: center;
+	width: 80px;
+}
+#trade-table table td.item-image img{
+	max-width: 70px;
+	max-height: 70px;
+}
+#trade-table table td.item-info{
+	width: 230px;
+	border-right: 1px solid #ececec;
+}
+#trade-table table td.item-info a{
+	font-family: OpenSans-Bold;
+	font-size: 13px;
+}
+#trade-table table td.item-info span{
+	color: #888;
+}
+#trade-table #expiration-info,
+#trade-table #trade-details
+{
+	color: #aaa;
+	line-height: 16px;
+	margin-top: 10px;
+	font-size: 11px;
+}
+#trade-table #info-box{
+	color: #aaa;
+	font-family: Lato-Reg;
+	line-height: 16px;
+	margin-top: 15px;
+}
+#trade-table #info-box .info-box-title{
+	color: #444;
+	display: block;
+	font-family: Roboto;
+	font-weight: bold;
+}
+#trade-table #info-box .info-box-title a{
+	font-family: Roboto;
+	font-size: 11px;
+	font-weight: normal;
+}
+#trade-table #info-box a{
+	font-family: OpenSans-Regular;
+	font-size: 12px;
+}
+
+/* Shop & Sold tables */
+#shop-table table td,
+#shop-table table th{
+	padding-left: 10px;
+}
+#shop-table table td.one{
+	padding: 10px 10px 5px;
+	text-align: center;
+	width: 100px;
+}
+#shop-table table td.one img{
+	max-width: 90px;
+	max-height: 90px;
+}
+#shop-table table td.two,
+#shop-table table th.two
+{
+	width: 360px;
+	padding-left: 0px;
+}
+#shop-table table td.two{
+	border-right: 1px solid #ececec;
+}
+#shop-table table td.two a{
+	font-family: OpenSans-Bold;
+	font-size: 13px;
+}
+#shop-table table td.three{
+	border-right: 1px solid #ececec;
+	color: #999;
+	font-family: Roboto;
+}
+#shop-table table td.three span.left{
+	color: #444;
+	display: inline-block;
+	width: 60px;
+}
+#shop-table #info-box{
+	color: #aaa;
+	font-family: Lato-Reg;
+	line-height: 16px;
+	margin-top: 15px;
+}
+#shop-table #info-box .info-box-title{
+	color: #444;
+	display: block;
+	font-family: Roboto;
+	font-weight: bold;
+}
+#shop-table #info-box .info-box-title a{
+	font-family: Roboto;
+	font-size: 11px;
+	font-weight: normal;
+}
+#shop-table #info-box a{
+	font-family: OpenSans-Regular;
+	font-size: 12px;
+}

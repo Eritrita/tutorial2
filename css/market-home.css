@@ -1,0 +1,59 @@
+/* Left Home Side Categories */
+#homepage-left-menu{
+	border-right: 1px solid #ddd;
+	float: left;
+	min-height: 1000px;
+	width: 243px;
+	background-color: #fbfbfb;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+#homepage-left-menu a{
+	color: #444;
+	display: block;
+	font-family: Roboto;
+	text-decoration: none;
+	padding: 4px 10px;
+	font-size: 13px;
+}
+#homepage-left-menu a:hover{
+	background-color: #006699;
+	color: white;
+}
+
+/* Right */
+#right-side .homepage-banner{
+	width: 780px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+#right-side #header-row{
+	display: inline-block;
+	margin: 8px 10px 4px;
+}
+#right-side .item-row{
+	display: inline-block;
+}
+#right-side #featured-item{ 		/* 195px each */
+	float: left;
+	margin: 10px 15px 15px;
+	width: 165px;
+}
+#right-side #featured-item #thumbnail{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 165px;
+	height: 165px;
+}
+#right-side #featured-item #thumbnail img{
+	max-width: 155px;
+	max-height: 155px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+#right-side #featured-item a{
+	display: block;
+	font-family: Lato-Bol;
+	font-size: 13px;
+}
+#right-side #featured-item .featured-details{
+	color: #999;
+} 

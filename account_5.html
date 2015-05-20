@@ -1,0 +1,175 @@
+<!--
+shop/sold.php
+shop/purchase.php
+shop/purchase.php?type=archived
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/market.css">
+	<link rel="stylesheet" type="text/css" href="css/market-account.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<header id="main_header">
+			<a href="#" class="headerLogo">the<span class="secondColor">new</span>boston<span class="secondColor">shop</span></a>
+		</header>
+		
+		<section id="main_section">
+		
+			<!-- Tabs -->
+			<ul id="top-tabs">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Add Item</a></li>
+				<li><a href="#">Search</a></li>
+				<li class="current"><a href="#">Trade Account</a></li>
+			</ul>
+			
+			<!-- Search -->
+			<div id="top-search">
+				<form>
+					<input type="text" class="search-input">
+					<select>
+						<option value="#">All Categories</option>
+						<option value="#">Art</option>
+						<option value="#">Sports Memorabilia &amp; Cards</option>
+					</select>
+					<input type="submit" value="Search" class="search-button">
+				</form>
+			</div>
+			
+			<aside id="account-left-bar">
+				<div id="user-name">Bucky Roberts</div>
+				<div id="user-thumbnail">
+					<a href="#"><img src="https://www.thenewboston.com/photos/users/2/resized/eac03a8959095ccb188efcea5aab7068.jpg" /></a>
+				</div>
+				<dl>
+					<dt>Selling</dt>        
+					<dd>
+						<a href="#">Selling Now</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#" class="current">Sold</a>
+						<div class="menu-item-divider"></div>
+					</dd> 					
+					<dd>
+						<a href="#">Expired</a>
+						<div class="menu-item-divider"></div>
+					</dd>        
+				</dl>
+				<dl>
+					<dt>Purchases</dt>        
+					<dd>
+						<a href="#">Recent</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Archived</a>
+						<div class="menu-item-divider"></div>
+					</dd> 					
+				</dl>
+				<dl>
+					<dt>Shop Settings</dt>        
+					<dd>
+						<a href="#">Notification Settings</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Shipping Information</a>
+						<div class="menu-item-divider"></div>
+					</dd> 				
+				</dl>				
+			</aside>
+			
+			<!-- Right -->
+			<section id="account-right">
+			
+				<div id="table-title">My Sold Items</div>
+			
+				<div id="shop-table">
+					<table>
+						<tr>
+							<th></th>
+							<th class="two">Item</th>
+							<th>Details</th>
+							<th>Actions</th>					
+						</tr>
+						<tr>
+							<td class="one">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/6271f0ef1a474524c3fbb67e95ddebd4.jpg" /></a>
+							</td>
+							<td class="two">
+								<a href="#">Alex Ovechkin Washington Capitals - Hockey Card</a>
+								<div id="info-box">
+									<span class="info-box-title">Feedback Received</span>
+									None
+								</div>								
+								<div id="info-box">
+									<span class="info-box-title">My Address</span>
+									Bucky Roberts <br />
+									32 Hungerford Ave <br />
+									Adams, NY <br />
+									13605 <br />
+									United States
+								</div>
+								<div id="info-box">
+									<span class="info-box-title">Tracking Number <a href="#">(edit)</a></span>
+									1ZW85F760300041043
+								</div>								
+							</td>
+							<td class="three">
+								<span class="left">Date:</span> August 28, 2014 <br />
+								<span class="left">Order ID:</span> 00000021 <br />
+								<span class="left">Price:</span> 0.003 BTC <br />
+								<span class="left">Total:</span> <span class="green">0.003 BTC</span>
+							</td>
+							<td>
+								<a href="#">Send Message</a> <br />
+								<a href="#">Hide Shipping Info</a>
+							</td>							
+						</tr>
+						<tr>
+							<td class="one">
+								<a href="#"><img src="https://www.thenewboston.com/images/shop/2/1db9ea51068b4dfc8b92ec9624f1e87a_thumb.jpg" /></a>
+							</td>
+							<td class="two">
+								<a href="#">MySQL Tutorial for Beginners - Part 2/2 (18 Videos)</a>
+								<div id="info-box">
+									<span class="info-box-title">Feedback Received</span>
+									<div class="feedback-positive">Positive</div>
+								</div>																
+							</td>
+							<td class="three">
+								<span class="left">Date:</span> August 28, 2014 <br />
+								<span class="left">Order ID:</span> 00000021 <br />
+								<span class="left">Price:</span> 0.003 BTC <br />
+								<span class="left">Total:</span> <span class="green">0.003 BTC</span>
+							</td>
+							<td>
+								<a href="#">Send Message</a>
+							</td>							
+						</tr>
+					</table>
+				</div>
+				
+				<div class="paginate">
+					<span class="label">1 - 11 of 11</span>
+					<div class="pages">
+						<span class="current">1</span>
+					</div>
+					<div class="clear"></div>
+				</div>				
+				
+			</section>
+
+		</section>
+		
+	</div>
+	
+</body>
+</html>

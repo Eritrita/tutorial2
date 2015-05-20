@@ -1,0 +1,172 @@
+<!--
+trade/additem.php
+trade/edititem.php
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/market.css">
+	<link rel="stylesheet" type="text/css" href="css/market-account.css">
+	<link rel="stylesheet" type="text/css" href="css/market-buttons.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<header id="main_header">
+			<a href="#" class="headerLogo">the<span class="secondColor">new</span>boston<span class="secondColor">trade</span></a>
+		</header>
+		
+		<section id="main_section">
+		
+			<!-- Tabs -->
+			<ul id="top-tabs">
+				<li><a href="#">Home</a></li>
+				<li class="current"><a href="#">Add Item</a></li>
+				<li><a href="#">Search</a></li>
+				<li><a href="#">Trade Account</a></li>
+			</ul>
+			
+			<!-- Search -->
+			<div id="top-search">
+				<form>
+					<input type="text" class="search-input">
+					<select>
+						<option value="#">All Categories</option>
+						<option value="#">Art</option>
+						<option value="#">Sports Memorabilia &amp; Cards</option>
+					</select>
+					<input type="submit" value="Search" class="search-button">
+				</form>
+			</div>
+			
+			<aside id="account-left-bar">
+				<div id="user-name">Bucky Roberts</div>
+				<div id="user-thumbnail">
+					<a href="#"><img src="https://www.thenewboston.com/images/defaultProfileImage.png" /></a>
+				</div>
+				<dl>
+					<dt>My Items</dt>        
+					<dd>
+						<a href="#">Available</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Expired</a>
+						<div class="menu-item-divider"></div>
+					</dd>        
+				</dl>
+				<dl>
+					<dt>Offers</dt>        
+					<dd>
+						<a href="#">Made</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Received</a>
+						<div class="menu-item-divider"></div>
+					</dd> 
+					<dd>
+						<a href="#">Declined by Me</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Declined by Them</a>
+						<div class="menu-item-divider"></div>
+					</dd>					
+				</dl>
+				<dl>
+					<dt>Trades</dt>        
+					<dd>
+						<a href="#">Completed</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">History</a>
+						<div class="menu-item-divider"></div>
+					</dd> 					
+				</dl>
+				<dl>
+					<dt>Trade Settings</dt>        
+					<dd>
+						<a href="#">Notification Settings</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Shipping Information</a>
+						<div class="menu-item-divider"></div>
+					</dd> 				
+				</dl>				
+			</aside>
+			
+			<!-- Right -->
+			<section id="account-right">
+			
+				<div id="table-title">Add Item</div>
+			
+				<!-- Add Item Form -->
+				<form>
+					<table class="form-table">
+						<tr>
+							<td class="label">Title:</td>
+							<td><input type="text" class="market-input"></td> 
+						</tr>
+						<tr>
+							<td class="label">Subtitle:</td>
+							<td><input type="text" class="market-input"></td> 
+						</tr>
+						<tr>
+							<td class="label">Description:</td>
+							<td><textarea class="market-textarea"></textarea></td> 
+						</tr>
+						<tr>
+							<td class="label">Items Wanted:</td>
+							<td><input type="text" class="market-input"></td> 
+						</tr>
+						<tr>
+							<td class="label">Category:</td>
+							<td>
+								<select>
+									<option>- Select -</option>
+								</select>							
+							</td> 
+						</tr>
+						<tr>
+							<td class="label">Images (up to 5) :</td>
+							<td>
+								<a href="#" class="redButton">Choose File</a>					
+							</td> 
+						</tr>
+						<tr>
+							<td class="label">Listing Duration:</td>
+							<td>
+								<select>
+									<option>14 days</option>
+								</select>							
+							</td> 
+						</tr>
+						<tr>
+							<td class="label">Item Location:</td>
+							<td>
+								<select>
+									<option>- Select -</option>
+								</select>							
+							</td> 
+						</tr>						
+						<tr>
+							<td class="label">&nbsp;</td>
+							<td><a href="#" class="button bg-blue icon-bendedright">Add Item</a></td> 
+						</tr>						
+					</table>				
+				</form>
+				
+			</section>
+
+		</section>
+		
+	</div>
+	
+</body>
+</html>

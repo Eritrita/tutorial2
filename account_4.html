@@ -1,0 +1,223 @@
+<!--
+trade/traded.php
+trade/traded.php?type=history
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/market.css">
+	<link rel="stylesheet" type="text/css" href="css/market-account.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<header id="main_header">
+			<a href="#" class="headerLogo">the<span class="secondColor">new</span>boston<span class="secondColor">trade</span></a>
+		</header>
+		
+		<section id="main_section">
+		
+			<!-- Tabs -->
+			<ul id="top-tabs">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Add Item</a></li>
+				<li><a href="#">Search</a></li>
+				<li class="current"><a href="#">Trade Account</a></li>
+			</ul>
+			
+			<!-- Search -->
+			<div id="top-search">
+				<form>
+					<input type="text" class="search-input">
+					<select>
+						<option value="#">All Categories</option>
+						<option value="#">Art</option>
+						<option value="#">Sports Memorabilia &amp; Cards</option>
+					</select>
+					<input type="submit" value="Search" class="search-button">
+				</form>
+			</div>
+			
+			<aside id="account-left-bar">
+				<div id="user-name">Bucky Roberts</div>
+				<div id="user-thumbnail">
+					<a href="#"><img src="https://www.thenewboston.com/images/defaultProfileImage.png" /></a>
+				</div>
+				<dl>
+					<dt>My Items</dt>        
+					<dd>
+						<a href="#">Available</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Expired</a>
+						<div class="menu-item-divider"></div>
+					</dd>        
+				</dl>
+				<dl>
+					<dt>Offers</dt>        
+					<dd>
+						<a href="#">Made</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Received</a>
+						<div class="menu-item-divider"></div>
+					</dd> 
+					<dd>
+						<a href="#">Declined by Me</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Declined by Them</a>
+						<div class="menu-item-divider"></div>
+					</dd>					
+				</dl>
+				<dl>
+					<dt>Trades</dt>        
+					<dd>
+						<a href="#" class="current">Completed</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">History</a>
+						<div class="menu-item-divider"></div>
+					</dd> 					
+				</dl>
+				<dl>
+					<dt>Trade Settings</dt>        
+					<dd>
+						<a href="#">Notification Settings</a>
+						<div class="menu-item-divider"></div>
+					</dd>
+					<dd>
+						<a href="#">Shipping Information</a>
+						<div class="menu-item-divider"></div>
+					</dd> 				
+				</dl>				
+			</aside>
+			
+			<!-- Right -->
+			<section id="account-right">
+			
+				<div id="table-title">My Completed Trades</div>
+			
+				<div id="trade-table">
+					<table>
+						<tr>	
+							<th></th>
+							<th>My Item</th>
+							<th></th>
+							<th>Their Item</th>
+							<th class="last-col">Actions</th>					
+						</tr>
+						<!-- Row 1 -->
+						<tr>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/d5e08f03fc68d85400460eb1b1e9c920.jpg" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Army of Two: The 40th Day - PS3</a>
+								<div id="info-box">
+									<span class="info-box-title">Feedback Received</span>
+									None
+								</div>								
+								<div id="info-box">
+									<span class="info-box-title">My Address</span>
+									Bucky Roberts <br />
+									32 Hungerford Ave <br />
+									Adams, NY <br />
+									13605 <br />
+									United States
+								</div>
+								<div id="info-box">
+									<span class="info-box-title">Tracking Number</span>
+									1ZW85F760300041043
+								</div>								
+							</td>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/4/7f397efd56053a15f9b5ceeb7d4a1029.JPG" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Original Modern Palette Knife Abstract Oil Painting</a>
+								<div id="info-box">
+									<span class="info-box-title">Feedback Given</span>
+									<a href="#">Leave Feedback</a>
+								</div>								
+								<div id="info-box">
+									<span class="info-box-title">Their Address</span>
+									Buddy Blackford <br />
+									17526 Doxtater St <br />
+									Adams, NY <br />
+									13605 <br />
+									United States
+								</div>
+								<div id="info-box">
+									<span class="info-box-title">Tracking Number</span>
+									None
+								</div>								
+							</td>
+							<td class="last-col">
+								<a href="#">Leave Tracking Number</a> <br />
+								<a href="#">Send Message</a> <br />
+								<a href="#">Hide Shipping Info</a>
+								<div id="trade-details">
+									Trade ID: 14 <br />
+									Trade Date: 9/29/14
+								</div>
+							</td>							
+						</tr>
+						<!-- Row 2 -->
+						<tr>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/9d8452b97987903f8304ffc4ef976383.jpg" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">Corey Crawford - Hockey Card</a>
+								<div id="info-box">
+									<span class="info-box-title">Feedback Received</span>
+									None
+								</div>																
+							</td>
+							<td class="item-image">
+								<a href="#"><img src="https://www.thenewboston.com/images/trade/2/6912cd8ebde8e8979acccb5f1b99e094.jpg" /></a>
+							</td>
+							<td class="item-info">
+								<a href="#">South Park for Playstation 3</a>
+								<div id="info-box">
+									<span class="info-box-title">Feedback Given</span>
+									<a href="#">Leave Feedback</a>
+								</div>																
+							</td>
+							<td class="last-col">
+								<a href="#">Leave Tracking Number</a> <br />
+								<a href="#">Send Message</a> <br />
+								<a href="#">View Shipping Info</a>
+								<div id="trade-details">
+									Trade ID: 7 <br />
+									Trade Date: 9/23/14
+								</div>
+							</td>							
+						</tr>						
+					</table>
+				</div>
+				
+				<div class="paginate">
+					<span class="label">1 - 11 of 11</span>
+					<div class="pages">
+						<span class="current">1</span>
+					</div>
+					<div class="clear"></div>
+				</div>				
+				
+			</section>
+
+		</section>
+		
+	</div>
+	
+</body>
+</html>

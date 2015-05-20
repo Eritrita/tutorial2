@@ -1,0 +1,108 @@
+/* Search Left Area */
+#search-left{
+	float: left;	
+	padding: 5px 10px 20px;
+	width: 220px;
+}
+#search-left ul a{
+	line-height: 20px;
+	font-family: Lato-Reg;
+	font-size: 13px;
+}
+#search-left ul span{
+	font-size: 10px;
+	color: #888;
+}
+#search-left form select{
+	border: 1px solid #ddd;
+	color: #777;
+	font-family: Lato-Reg;
+	width: 170px;
+}
+#search-left #search-ads{
+	margin-top: 10px;
+	/* text-align: center; */
+}
+
+/* Search Right Area */
+#search-right{
+	width: 784px;
+	float: left;
+}
+#search-right #breadcrumbs{
+	font-family: Roboto-Regular;
+	color: #999;
+	padding: 10px 0px;
+}
+#search-right #breadcrumbs a{
+	font-family: OpenSans-Regular;
+}
+#search-right #above-table{
+	padding: 10px 10px 10px 0px;
+	color: #444;
+	text-align: right;
+}
+#search-right #above-table .search-results-details{
+	display: inline-block;
+	float: left;
+	font-size: 11px;
+}
+#search-right #above-table form select{
+	border: 1px solid #ddd;
+	color: #777;
+	font-family: OpenSans-Regular;
+	font-size: 11px;
+	padding: 1px;
+	width: 170px;
+}
+
+
+/********************** search.php Right Table **********************/
+#search-right table{
+	border-top: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+}
+#search-right table tr{
+	border-bottom: 1px solid #e6e6e6;
+}
+#search-right table td{
+	vertical-align: top;
+	padding: 10px;
+}
+#search-right table td.one{
+	text-align: center;
+}
+#search-right table td.two{
+	font-family: Roboto;
+	font-size: 13px;
+}
+#search-right table td.three{
+}
+#search-right table td.four{
+	color: #999;
+}
+#search-right table img{
+	max-width: 135px;
+	max-height: 135px;
+}
+#search-right table .item-title{
+	font-family: OpenSans-Bold;
+	font-size: 14px;
+}
+#search-right table tr:nth-child(even){
+	background-color: #f8f8f8;
+}
+#search-right table td #owner-info-box{
+	color: #888;
+	font-size: 11px;
+	margin-top: 15px;
+}
+#search-right table td #owner-info-box img{
+	float: left;
+	margin-right: 5px;
+	width: 30px;
+}
+#search-right table td #owner-info-box a.userName{
+	font-family: OpenSans-Bold;
+	font-size: 11px;;
+}

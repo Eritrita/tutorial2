@@ -1,0 +1,43 @@
+a.button{
+	color: white;
+	display: inline-block;
+	font-family: OpenSans-Regular;
+	font-size: 12px;	
+	margin: 4px 4px 4px 0px;
+	padding: 5px 15px 5px 34px;
+	background-position: 7px 2px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+a.button:hover{
+	text-decoration: none;
+}
+
+/* Icons */
+.icon-accessdenied{ background-image: url(icons/accessdenied.png); }
+.icon-bendedright{ background-image: url(icons/bendedright.png); }
+.icon-lists{ background-image: url(icons/lists.png); }
+.icon-mail{ background-image: url(icons/mail.png); }
+.icon-pencil{ background-image: url(icons/pencil.png); }
+.icon-plus{ background-image: url(icons/plus.png); }
+.icon-refresh{ background-image: url(icons/refresh.png); }
+.icon-shoppingcart2{ background-image: url(icons/shoppingcart2.png); }
+
+/* Background Colors */
+.bg-blue{ background-color: #2980b9; }
+.bg-blue:hover{ background-color: #195a84; }
+.bg-dark{ background-color: #2c3e50; }
+.bg-dark:hover{ background-color: #0b1621; }
+.bg-green{ background-color: #27ae60; }
+.bg-green:hover{ background-color: #177c42; }
+.bg-magenta{ background-color: #8e44ad; }
+.bg-magenta:hover{ background-color: #61267a; }
+.bg-orange{ background-color: #e67e22; }
+.bg-orange:hover{ background-color: #b76217; }
+.bg-red{ background-color: #c0392b; }
+.bg-red:hover{ background-color: #932d23; }
+.bg-turqoise{ background-color: #16a085; }
+.bg-turqoise:hover{ background-color: #085b4b; }
+.bg-yellow{ background-color: #f1c40f; }
+.bg-yellow:hover{ background-color: #c3a321; }
