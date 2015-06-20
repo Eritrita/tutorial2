@@ -1,1 +1,2 @@
 Hi, I have just added it
+This is master file
