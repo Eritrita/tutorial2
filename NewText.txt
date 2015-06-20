@@ -1,2 +1,3 @@
 Hi, I have just added it
 This is master file
+I am editing this fronm public respository"github"
